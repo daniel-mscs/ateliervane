@@ -12,6 +12,10 @@ import {
   AlertCircle,
   X,
 } from 'lucide-react';
+import projectSpatialOs from '../../assets/images/project_spatial_os_1793150764465.jpg';
+import projectFintechLedger from '../../assets/images/project_fintech_ledger_1793150765875.jpg';
+import projectAudioSynth from '../../assets/images/project_audio_synth_1793150767550.jpg';
+import projectEditorialPress from '../../assets/images/project_editorial_press_1793150767304.jpg';
 
 const PROJECT_CATEGORIES: ProjectCategory[] = [
   'Sistemas & Produto',
@@ -23,19 +27,19 @@ const PROJECT_CATEGORIES: ProjectCategory[] = [
 const STUDIO_IMAGE_PRESETS = [
   {
     label: 'Spatial OS Glass',
-    url: '/src/assets/images/project_spatial_os_1793150764465.jpg',
+    url: projectSpatialOs,
   },
   {
     label: 'Terminal Financeiro',
-    url: '/src/assets/images/project_fintech_ledger_1793150765875.jpg',
+    url: projectFintechLedger,
   },
   {
     label: 'Sintetizador MOD-1',
-    url: '/src/assets/images/project_audio_synth_1793150767550.jpg',
+    url: projectAudioSynth,
   },
   {
     label: 'Monografia Editorial',
-    url: '/src/assets/images/project_editorial_press_1793150767304.jpg',
+    url: projectEditorialPress,
   },
 ];
 
@@ -48,7 +52,7 @@ const EMPTY_PROJECT: Omit<ProjectItem, 'id'> = {
   role: 'Direção de Design & Engenharia',
   featured: true,
   bentoSpan: 'standard',
-  imageUrl: '/src/assets/images/project_spatial_os_1793150764465.jpg',
+  imageUrl: projectSpatialOs,
   summary: '',
   challenge: '',
   outcome: '',

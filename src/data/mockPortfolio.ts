@@ -1,4 +1,9 @@
 import { PortfolioData } from '../types/portfolio';
+import heroStudioPortrait from '../assets/images/hero_studio_portrait_1793150764156.jpg';
+import projectSpatialOs from '../assets/images/project_spatial_os_1793150764465.jpg';
+import projectFintechLedger from '../assets/images/project_fintech_ledger_1793150765875.jpg';
+import projectAudioSynth from '../assets/images/project_audio_synth_1793150767550.jpg';
+import projectEditorialPress from '../assets/images/project_editorial_press_1793150767304.jpg';
 
 export const STORAGE_KEY = 'atelier_vane_portfolio_v1';
 
@@ -25,7 +30,7 @@ export const INITIAL_PORTFOLIO_DATA: PortfolioData = {
     location: 'São Paulo, Brasil · Atendimento Global',
     availabilityText: 'Agenda aberta para Q4 2026 — Consultoria & Projetos Fechados',
     email: 'contato@ateliervane.studio',
-    heroImageUrl: '/src/assets/images/hero_studio_portrait_1793150764156.jpg',
+    heroImageUrl: heroStudioPortrait,
     socials: {
       github: 'https://github.com',
       linkedin: 'https://linkedin.com',
@@ -70,7 +75,7 @@ export const INITIAL_PORTFOLIO_DATA: PortfolioData = {
       role: 'Direção de Interface & Engenharia WebGL',
       featured: true,
       bentoSpan: 'wide',
-      imageUrl: '/src/assets/images/project_spatial_os_1793150764465.jpg',
+      imageUrl: projectSpatialOs,
       summary:
         'Interface embarcada em painéis de vidro temperado para gestão de plantas arquitetônicas, iluminação circadiana e telemetria estrutural de edifícios sustentáveis.',
       challenge:
@@ -92,7 +97,7 @@ export const INITIAL_PORTFOLIO_DATA: PortfolioData = {
       role: 'Arquitetura Front-End & Design de Dados',
       featured: true,
       bentoSpan: 'standard',
-      imageUrl: '/src/assets/images/project_fintech_ledger_1793150765875.jpg',
+      imageUrl: projectFintechLedger,
       summary:
         'Plataforma web de baixa latência desenhada para gestores de portfólio acompanharem alocação setorial, exposição cambial e livros de ofertas sem fadiga visual.',
       challenge:
@@ -113,7 +118,7 @@ export const INITIAL_PORTFOLIO_DATA: PortfolioData = {
       role: 'Design Industrial de UI & DSP Visualizer',
       featured: true,
       bentoSpan: 'standard',
-      imageUrl: '/src/assets/images/project_audio_synth_1793150767550.jpg',
+      imageUrl: projectAudioSynth,
       summary:
         'Ecossistema visual unindo display OLED âmbar de alta precisão no hardware físico e editor de patches em WebAudio API para compositores de trilhas sonoras.',
       challenge:
@@ -134,7 +139,7 @@ export const INITIAL_PORTFOLIO_DATA: PortfolioData = {
       role: 'Direção Editorial & Engenharia Front-End',
       featured: true,
       bentoSpan: 'wide',
-      imageUrl: '/src/assets/images/project_editorial_press_1793150767304.jpg',
+      imageUrl: projectEditorialPress,
       summary:
         'Ambiente de leitura e diagramação assistida que preserva a proporção áurea, o contraste cromático fiel e a hierarquia tipográfica de edições impressas de colecionador.',
       challenge:

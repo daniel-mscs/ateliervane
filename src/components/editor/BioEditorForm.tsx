@@ -3,19 +3,22 @@ import { usePortfolio } from '../../context/PortfolioContext';
 import { BioProfile, MetricItem } from '../../types/portfolio';
 import { validateBioForm } from '../../schemas/validation';
 import { Check, AlertCircle } from 'lucide-react';
+import heroStudioPortrait from '../../assets/images/hero_studio_portrait_1793150764156.jpg';
+import projectEditorialPress from '../../assets/images/project_editorial_press_1793150767304.jpg';
+import projectAudioSynth from '../../assets/images/project_audio_synth_1793150767550.jpg';
 
 const PRESET_PORTRAITS = [
   {
     label: 'Estúdio Arquitetônico (Padrão)',
-    url: '/src/assets/images/hero_studio_portrait_1793150764156.jpg',
+    url: heroStudioPortrait,
   },
   {
     label: 'Editorial & Monografia',
-    url: '/src/assets/images/project_editorial_press_1793150767304.jpg',
+    url: projectEditorialPress,
   },
   {
     label: 'Hardware & Síntese',
-    url: '/src/assets/images/project_audio_synth_1793150767550.jpg',
+    url: projectAudioSynth,
   },
 ];
 
