@@ -1,0 +1,6 @@
+{
+  "name": "Atelier Vane — Portfólio Institucional Editável",
+  "description": "Portfólio editorial e site institucional com painel de gestão interativo para atualização em tempo real de biografia, métricas e projetos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

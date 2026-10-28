@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Bricolage Grotesque", sans-serif;
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+  --font-serif: "Fraunces", serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 36s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-marquee {
+    animation: none;
+  }
+}
